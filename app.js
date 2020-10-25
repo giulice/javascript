@@ -140,6 +140,20 @@ if (age < 2){
     alert("No contemplado");
 }
 
+/*********************************** 5- For ****************************************/
+
+/* A- Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript
+para mostrar una alerta utilizando cada una de las palabras.*/
+
+var palabras = ["uno", "dos", "tres", "cuatro", "cinco"];
+
+for(var i=0;i<palabras.length;i++){
+    alert(palabras[i]);
+}
+
+
+
+
 
 
 
