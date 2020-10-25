@@ -180,7 +180,17 @@ for (var i=0;i<10;i++){
 }
 console.log(numeros);
 
+/*********************************** 5- Functions ****************************************/
 
+/* A- Crear una función suma que reciba dos valores numéricos y retorne el resultado. 
+Ejecutar la función y guardar el resultado en una variable, mostrando el valor de dicha variable en la consola del navegador.*/
+
+function suma (num1, num2){
+    return (num1 + num2);
+}
+
+var resultado = suma(2,5);
+console.log(resultado);
 
 
 
