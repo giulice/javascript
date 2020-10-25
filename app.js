@@ -38,6 +38,14 @@ y generar un nuevo string con los últimos 3 caracteres guardando el resultado e
 var a = "abcdefghij"
 var b = a.substring(7)
 
+/* D- Crear una variable de tipo string con al menos 10 caracteres
+y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula.
+Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
+
+var a = "abcdEfGhiJ"
+var b = a.substring(0,1).toUpperCase() + a.substring(1).toLowerCase()
+
+
 
 
 
