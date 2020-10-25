@@ -6,4 +6,14 @@ var a = 1
 var b = 2
 var c = a + b
 
-console.log(c)
+/* B- Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.*/
+
+var a = "Giuliano"
+var b = "Cetto"
+var c = a + b
+
+
+
+
+
+
