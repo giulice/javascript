@@ -45,6 +45,12 @@ Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toL
 var a = "abcdEfGhiJ"
 var b = a.substring(0,1).toUpperCase() + a.substring(1).toLowerCase()
 
+/*Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
+Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
+
+var a = "abcd efghij"
+var b = a.indexOf(" ")
+
 
 
 
