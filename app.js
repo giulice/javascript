@@ -12,7 +12,7 @@ var a = "Giuliano"
 var b = "Cetto"
 var c = a + b
 
-/*Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string)
+/* C- Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string)
 guardando el resultado la suma una 3er variable (utilizar length).*/
 
 var a = "Giuliano"
@@ -21,17 +21,22 @@ var c = a.length + b.length
 
 /*********************************** 2- Strings ****************************************/
 
-/* Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).*/
+/* A- Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).*/
 
 var a = "abcdefghij"
 a = a.toUpperCase()
 
-/* Crear una variable de tipo string con al menos 10 caracteres 
+/* B- Crear una variable de tipo string con al menos 10 caracteres 
 y generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 
 var a = "abcdefghij"
 var b = a.substring(0,5)
 
+/* C- Crear una variable de tipo string con al menos 10 caracteres
+y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
+
+var a = "abcdefghij"
+var b = a.substring(7)
 
 
 
