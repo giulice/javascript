@@ -180,17 +180,35 @@ for (var i=0;i<10;i++){
 }
 console.log(numeros);
 
-/*********************************** 5- Functions ****************************************/
+/*********************************** 6- Functions ****************************************/
 
 /* A- Crear una función suma que reciba dos valores numéricos y retorne el resultado. 
 Ejecutar la función y guardar el resultado en una variable, mostrando el valor de dicha variable en la consola del navegador.*/
 
+/* B- A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número,
+mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.*/
+
 function suma (num1, num2){
+    if (typeof num1 !== "number" || typeof num2 !== "number"){
+        alert("Uno de los parametros ingresados no es un numero");
+        return "NaN";
+    }else{
     return (num1 + num2);
+    }
 }
 
-var resultado = suma(2,5);
+var resultado = suma(2,"d");
 console.log(resultado);
+
+
+
+
+
+
+
+
+
+
 
 
 
