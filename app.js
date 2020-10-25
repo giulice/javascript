@@ -87,6 +87,11 @@ meses.push("Ultimo");
 meses.shift();
 meses.pop();
 
+/* E- Invertir el orden del array (utilizar reverse)*/
+
+meses.reverse();
+
+
 
 
 
