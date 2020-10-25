@@ -63,7 +63,7 @@ var b = b.substring(0,1).toUpperCase() + b.substring(1).toLowerCase();
 var c = c.substring(0,2).toUpperCase() + c.substring(2).toLowerCase();
 var d = b + c; 
 
-/*********************************** 2- Arrays ****************************************/
+/*********************************** 3- Arrays ****************************************/
 
 /* A- Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log)*/
@@ -74,14 +74,18 @@ console.log(meses[4] + " " + meses[10]);
 
 /* B- Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).*/
 
-meses = meses.sort()
-console.log(meses)
+meses = meses.sort();
+console.log(meses);
 
 /* C- Agregar un elemento al principio y al final del array (utilizar unshift y push).*/
 
-meses.unshift("Primero")
-meses.push("Ultimo")
+meses.unshift("Primero");
+meses.push("Ultimo");
 
+/* D- Quitar un elemento del principio y del final del array (utilizar shift y pop).*/
+
+meses.shift();
+meses.pop();
 
 
 
