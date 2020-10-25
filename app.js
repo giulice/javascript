@@ -151,7 +151,12 @@ for(var i=0;i<palabras.length;i++){
     alert(palabras[i]);
 }
 
+/* B- Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.*/
 
+for(var i=0;i<palabras.length;i++){
+    palabras[i] = palabras[i].substring(0,1).toUpperCase() + palabras[i].substring(1).toLowerCase();
+    alert(palabras[i]);
+}
 
 
 
