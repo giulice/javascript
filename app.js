@@ -92,10 +92,11 @@ meses.reverse();
 
 /* F- Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).*/
 
-console.log(meses.join("-"))
+console.log(meses.join("-"));
 
-
-
+/* G- Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
+meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+meses = meses.slice(4,11);
 
 
 
