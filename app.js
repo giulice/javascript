@@ -77,6 +77,11 @@ console.log(meses[4] + " " + meses[10]);
 meses = meses.sort()
 console.log(meses)
 
+/* C- Agregar un elemento al principio y al final del array (utilizar unshift y push).*/
+
+meses.unshift("Primero")
+meses.push("Ultimo")
+
 
 
 
