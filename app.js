@@ -191,22 +191,20 @@ mostrar una alerta aclarando que uno de los parámetros tiene error y retornar e
 /* D- A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros.
 En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).*/
 
-
 function suma (num1, num2){
-    if (typeof num1 !== "number" || typeof num2 !== "number"){
-        alert("Uno de los parametros ingresados no es un numero");
-        return "NaN";
+    validatenumber(num1,num2);
+    if (isNaN(num1) || isNaN(num2)){
+        return NaN;
     }
-    num1 = validateinterger(num1)
-    num2 = validateinterger(num2)
+    num1 = validateinterger(num1);
+    num2 = validateinterger(num2);
     return (num1 + num2);
 }
 
-var resultado = suma(2,5);
+var resultado = suma(8.9,5);
 console.log(resultado);
 
 /* C- Crear una función validate integer que reciba un número como parámetro y verdadero si es un número entero.*/
-
 
     function validateinterger (num){
         if(Number.isInteger(num)){
@@ -218,9 +216,17 @@ console.log(resultado);
         }
     }
 
+/* E - Convertir la validación del ejercicio 6b) en una función separada
+y llamarla dentro de la función suma probando que todo siga funcionando igual.*/
 
-
-
+function validatenumber(num1,num2){
+    if (typeof num1 !== "number" || typeof num2 !== "number"){
+        alert("Uno de los parametros ingresados no es un numero");
+        return NaN;
+    }else{
+        return(num1,num2);
+    }
+}
 
 
 
